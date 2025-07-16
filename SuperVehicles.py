@@ -53,6 +53,13 @@ truck=Truck()
 motercycle=Motercyle()
 bus=Bus()
 
+#Print how much fuel each vehicle needs
+print(car.fuel_needed(150))
+print(truck.fuel_needed(150))
+print(motercycle.fuel_needed(150))
+print(bus.fuel_needed(150))
+print() #blank line for readabiltiy 
+
 #Print each vehicles description
 print(car.description())
 print(truck.description())
@@ -60,10 +67,4 @@ print(motercycle.description())
 print(bus.description())
 print() #blank line for readability 
 
-#Print how much fuel each vehicle needs
-print(car.fuel_needed(150))
-print(truck.fuel_needed(150))
-print(motercycle.fuel_needed(150))
-print(bus.fuel_needed(150))
-print() #blank line for readabiltiy 
 
